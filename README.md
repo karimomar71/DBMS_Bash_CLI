@@ -11,6 +11,10 @@ Implementation of a Database Management System using Bash Script
 
 The Program works by using CLI With SQL Statements
 
+# Required packages 
+
+-install gawk package .
+
 # CLI Main Menu
 
 From the Main menu you can do the following :

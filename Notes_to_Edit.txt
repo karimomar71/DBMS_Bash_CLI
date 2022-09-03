@@ -1,6 +1,3 @@
-#Delete /SELECT column; FROM table_name;/ from /Select From Table/ *Repeated
-#Delete /SELECT *; FROM table_name;/ from /Select From Table/  *Repeated
 
 
-============================================================================================================================
-Delee option requires gawk package " Must be installed to work "
+Please install gawk package
