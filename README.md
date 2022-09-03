@@ -3,14 +3,12 @@ Implementation of a Database Management System using Bash Script
 
 
 <p align="center">
-  <img src="Shots/MainMenu.png">
+  <img src="DBMS_shots/MainMenu.png">
 </p>
 
 
 # Main Features 
-The Program has both CLI & GUI Interfaces
-* CLI With SQL Statements
-* Simple GUI using Zenity
+The Program works uses CLI With SQL Statements
 
 # CLI Main Menu
 
@@ -33,7 +31,7 @@ After Creating a Database you can do the following :
 #### You must create at least one table to use these options, you get Error message if table not exist.
 
 <p align="center">
-  <img  src="Shots/DBMenu.png">
+  <img  src="DBMS_shots/DBMenu.png">
 </p>
 
 # Key Features
@@ -46,7 +44,7 @@ CREATE TABLE table_name (column1 int pk , column2 txt , . . )
 3. Descriptive Error message
 
 <p align="center">
-  <img  src="Shots/CreateMenu.png">
+  <img  src="DBMS_shots/CreateMenu.png">
 </p>
 
 ## INSERT With SQL statement  
@@ -59,7 +57,7 @@ INSERT INTO tableName ; VALUES(value1, value2 . . . )
 4. Descriptive Error message
 
 <p align="center">
-  <img  src="Shots/InsertMenu.png">
+  <img  src="DBMS_shots/InsertMenu.png">
 </p>
 
 ## DELETE With SQL Statements  
@@ -72,7 +70,7 @@ DELETE FROM table_name;
 3. Descriptive Error message
 
 <p align="center">
-  <img  src="Shots/DeleteMenu.png">
+  <img  src="DBMS_shots/DeleteMenu.png">
 </p>
 
 ## UPDATE With SQL Statement 
@@ -86,7 +84,7 @@ UPDATE table_name; SET column1=value1; WHERE column2=value2;
 5. Descriptive Error message
 
 <p align="center">
-  <img  src="Shots/UpdateMenu.png">
+  <img  src="DBMS_shots/UpdateMenu.png">
 </p>
 
 ## SELECT With SQL Statements 
@@ -104,7 +102,7 @@ SELECT *; FROM table_name;
 5. Descriptive Error message
 
 <p align="center">
-  <img  src="Shots/SelectMenu.png">
+  <img  src="DBMS_shots/SelectMenu.png">
 </p>
 
 ---
