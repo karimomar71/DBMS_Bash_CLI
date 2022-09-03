@@ -1,4 +1,4 @@
-# Bash DBMS
+# Bash DBMS_with_SQL_Statements
 Implementation of a Database Management System using Bash Script
 
 
@@ -8,7 +8,8 @@ Implementation of a Database Management System using Bash Script
 
 
 # Main Features 
-The Program works uses CLI With SQL Statements
+
+The Program works by using CLI With SQL Statements
 
 # CLI Main Menu
 
@@ -22,13 +23,15 @@ From the Main menu you can do the following :
 # Connect Database Menu
 
 After Creating a Database you can do the following :
+
 * Create Table 
 * Drop Tables
 * Insert into Table
 * Select From Table
 * Delete From Table
 * Update Table
-#### You must create at least one table to use these options, you get Error message if table not exist.
+
+#### You must create at least one table to use these options, you get Error message if table does not exist.
 
 <p align="center">
   <img  src="DBMS_shots/DBMenu.png">
@@ -93,8 +96,7 @@ SELECT *; FROM table_name;
 SELECT column; FROM table_name;
 SELECT column ; FROM table_name ; WHERE column[==,<,>,>=,<=]value ;
 SELECT * ; FROM table_name ; WHERE column[==,<,>,>=,<=]value ;
-SELECT column; FROM table_name;
-SELECT *; FROM table_name; 
+
 ```
 1. The SELECT column must exist
 3. The WHERE column must exist
