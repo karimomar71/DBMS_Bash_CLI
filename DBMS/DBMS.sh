@@ -2,8 +2,31 @@
 while true;
 do
 tput bold setaf 2; #change font color to Green
+tput setaf 3; #change font color to Yellow
+
+
+echo "
+██ ████████ ██     ██████   ██████  ██████  ██████  
+██    ██    ██          ██ ██  ████      ██      ██ 
+██    ██    ██      █████  ██ ██ ██  █████   █████  
+██    ██    ██     ██      ████  ██ ██      ██      
+██    ██    ██     ███████  ██████  ███████ ███████                                                                                                             "
+tput bold setaf 2; #change font color to Green
+tput setaf 2; #change font color to Yellow
+
+echo  '
+ /$$   /$$          /$$$$$$        /$$$$$$$  /$$      /$$ /$$$$$$$   /$$$$$$ 
+| $$  /$$/         /$$__  $$      | $$__  $$| $$$    /$$$| $$__  $$ /$$__  $$
+| $$ /$$/         | $$  \ $$      | $$  \ $$| $$$$  /$$$$| $$  \ $$| $$  \__/
+| $$$$$/          | $$$$$$$$      | $$  | $$| $$ $$/$$ $$| $$$$$$$ |  $$$$$$ 
+| $$  $$          | $$__  $$      | $$  | $$| $$  $$$| $$| $$__  $$ \____  $$
+| $$\  $$         | $$  | $$      | $$  | $$| $$\  $ | $$| $$  \ $$ /$$  \ $$
+| $$ \  $$        | $$  | $$      | $$$$$$$/| $$ \/  | $$| $$$$$$$/|  $$$$$$/
+|__/  \__/ /$$$$$$|__/  |__/      |_______/ |__/     |__/|_______/  \______/'
+
+tput bold
 echo "+---------------------------+"
-echo "| $(tput setaf 2)Welcome to K.A DBMS !$(tput bold setaf 4)     |"
+echo "| $(tput setaf 2)Welcome to K_A DBMS !$(tput bold setaf 4)     |"
 echo "| $(tput setaf 3)Written By: Karim & Arafa$(tput setaf 4) |"
 echo "+---------------------------+"
 echo "| 1 - Create Database       |"
