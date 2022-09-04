@@ -1,0 +1,4 @@
+id|int|pk
+name|txt
+email|txt
+phone_number|int
