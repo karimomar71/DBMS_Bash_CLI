@@ -6,7 +6,7 @@ function db_connected() {
     filler_length=(59-${#db_name})
     echo -n "| $(tput setaf 3)<$1 "
     for ((counter = 0; counter < filler_length; counter++)); do echo -n "-"; done
-    echo " Connected>$(tput setaf 2) |"
+    echo " Connected>$(tput setaf 4) |"
 }
 
 function select_with_check() {

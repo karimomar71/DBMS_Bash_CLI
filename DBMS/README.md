@@ -1,2 +1,2 @@
 # BashBDMS
-Implementation of DBMS using Bash Script
+Implementation of DB Tables
