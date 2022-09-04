@@ -24,7 +24,7 @@ From the Main menu you can do the following :
 * Drop Database  
 #### You must create at least one Database to Connect.
 
-# Connect Database Menu
+# Table Main Menu
 
 After Creating a Database you can do the following :
 
