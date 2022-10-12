@@ -1,9 +1,11 @@
 #!/bin/bash
 echo -n "Enter the Database name : "
-read db_name
+read -r db_name
 
+if [[ $db_name =~ ^[0-9] ]]; then #check if the value starts with a number
+echo "The entered value starts with a number"
 
-if [ -d DBMS/$db_name ]
+elif [ -d DBMS/$db_name ]
 then
     
 	echo "Failed, DB Name May Exist"

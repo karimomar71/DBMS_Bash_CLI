@@ -36,8 +36,8 @@ echo "| 4 - Drop Database         |"
 echo "| 5 - Exit                  |"
 echo "+---------------------------+"
 tput setaf 3; #change font color to Yellow
-echo  -n "$(tput setaf 3)Choice : "
-read choice
+echo -n "$(tput setaf 3)Choice : "
+read -r choice
 case $choice in
     1)  . ./create_db.sh ;;
     2) ls DBMS 2>> error.log || echo "No Databases Exist" ;; #List (2) option exists here.

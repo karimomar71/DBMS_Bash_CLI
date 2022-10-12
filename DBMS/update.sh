@@ -10,6 +10,7 @@ function db_connected() {
     echo " Connected>$(tput setaf 4) |"
 }
 
+#Hello Ya Reff This is an edit for you 
 function update_with_check() {
 # UPDATE table; SET column1=value1; WHERE column2=value2;
 #remove SQL specific words
